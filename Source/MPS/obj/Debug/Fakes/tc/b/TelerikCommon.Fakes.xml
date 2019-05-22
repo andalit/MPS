@@ -1,0 +1,2342 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TelerikCommon.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.TelerikCommonDelegates">
+            <summary>Содержит пользовательские делегаты для заглушек и оболочек совместимости TelerikCommon</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimClientUtils">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.ClientUtils</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimClientUtils.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimClientUtils.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimClientUtils.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimClientUtils.ArraysEqualByteArrayByteArray">
+            <summary>Задает оболочка совместимости ClientUtils.ArraysEqual(Byte[] a1, Byte[] a2)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimClientUtils.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimClientUtils.GetBitCountUInt32">
+            <summary>Задает оболочка совместимости ClientUtils.GetBitCount(UInt32 x)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimClientUtils.IsEnumValidEnumInt32Int32Int32">
+            <summary>Задает оболочка совместимости ClientUtils.IsEnumValid(Enum enumValue, Int32 value, Int32 minValue, Int32 maxValue)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimClientUtils.IsEnumValidEnumInt32Int32Int32Int32">
+            <summary>Задает оболочка совместимости ClientUtils.IsEnumValid(Enum enumValue, Int32 value, Int32 minValue, Int32 maxValue, Int32 maxNumberOfBitsOn)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimDllWrapper">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.DllWrapper</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimDllWrapper.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimDllWrapper.#ctor(Telerik.WinControls.DllWrapper)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimDllWrapper.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimDllWrapper.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimDllWrapper.Bind(System.IDisposable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.Constructor">
+            <summary>Задает оболочка совместимости DllWrapper.DllWrapper()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.ConstructorString">
+            <summary>Задает оболочка совместимости DllWrapper.DllWrapper(String dllName)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.Dispose">
+            <summary>Задает оболочка совместимости DllWrapper.Dispose()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.DisposeBoolean">
+            <summary>Задает оболочка совместимости DllWrapper.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.FreeDll">
+            <summary>Задает оболочка совместимости DllWrapper.FreeDll()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.GetFunctionAsDelegateStringType">
+            <summary>Задает оболочка совместимости DllWrapper.GetFunctionAsDelegate(String functionName, Type delegateType)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.IsDllLoadedGet">
+            <summary>Задает оболочка совместимости DllWrapper.get_IsDllLoaded()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.LoadDllString">
+            <summary>Задает оболочка совместимости DllWrapper.LoadDll(String dllName)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimDllWrapper.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.AllInstances.Dispose">
+            <summary>Задает оболочка совместимости DllWrapper.Dispose()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.AllInstances.DisposeBoolean">
+            <summary>Задает оболочка совместимости DllWrapper.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.AllInstances.FreeDll">
+            <summary>Задает оболочка совместимости DllWrapper.FreeDll()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.AllInstances.GetFunctionAsDelegateStringType">
+            <summary>Задает оболочка совместимости DllWrapper.GetFunctionAsDelegate(String functionName, Type delegateType)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.AllInstances.IsDllLoadedGet">
+            <summary>Задает оболочка совместимости DllWrapper.get_IsDllLoaded()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimDllWrapper.AllInstances.LoadDllString">
+            <summary>Задает оболочка совместимости DllWrapper.LoadDll(String dllName)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimGESTUREINFO">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.GESTUREINFO</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimGESTUREINFO.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimGESTUREINFO.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimGESTUREINFO.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimGESTUREINFO.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimGESTUREINFO.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimGestureInfoHelper">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.GestureInfoHelper</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimGestureInfoHelper.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimGestureInfoHelper.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimGestureInfoHelper.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimGestureInfoHelper.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimGestureInfoHelper.StaticConstructor">
+            <summary>Задает оболочка совместимости GestureInfoHelper.GestureInfoHelper()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimGestureInfoHelper.SupportsGesturesGet">
+            <summary>Задает оболочка совместимости GestureInfoHelper.get_SupportsGestures()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimGestureInfoHelper.SupportsGesturesSetBoolean">
+            <summary>Задает оболочка совместимости GestureInfoHelper.set_SupportsGestures(Boolean value)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimHandleCollector">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.HandleCollector</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimHandleCollector.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimHandleCollector.#ctor(Telerik.WinControls.HandleCollector)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimHandleCollector.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimHandleCollector.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.AddIntPtrInt32">
+            <summary>Задает оболочка совместимости HandleCollector.Add(IntPtr handle, Int32 type)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.Constructor">
+            <summary>Задает оболочка совместимости HandleCollector.HandleCollector()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.HandleAddedAddHandleChangeEventHandler">
+            <summary>Задает оболочка совместимости HandleCollector.add_HandleAdded(HandleChangeEventHandler value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.HandleAddedRemoveHandleChangeEventHandler">
+            <summary>Задает оболочка совместимости HandleCollector.remove_HandleAdded(HandleChangeEventHandler value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.HandleRemovedAddHandleChangeEventHandler">
+            <summary>Задает оболочка совместимости HandleCollector.add_HandleRemoved(HandleChangeEventHandler value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.HandleRemovedRemoveHandleChangeEventHandler">
+            <summary>Задает оболочка совместимости HandleCollector.remove_HandleRemoved(HandleChangeEventHandler value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.RegisterTypeStringInt32Int32">
+            <summary>Задает оболочка совместимости HandleCollector.RegisterType(String typeName, Int32 expense, Int32 initialThreshold)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.RemoveIntPtrInt32">
+            <summary>Задает оболочка совместимости HandleCollector.Remove(IntPtr handle, Int32 type)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.ResumeCollect">
+            <summary>Задает оболочка совместимости HandleCollector.ResumeCollect()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.StaticConstructor">
+            <summary>Задает оболочка совместимости HandleCollector.HandleCollector()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHandleCollector.SuspendCollect">
+            <summary>Задает оболочка совместимости HandleCollector.SuspendCollect()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimHandleCollector.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimHookEventArgs">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.HookEventArgs</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimHookEventArgs.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimHookEventArgs.#ctor(Telerik.WinControls.HookEventArgs)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimHookEventArgs.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimHookEventArgs.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHookEventArgs.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHookEventArgs.Constructor">
+            <summary>Задает оболочка совместимости HookEventArgs.HookEventArgs()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimHookEventArgs.ConstructorInt32IntPtrIntPtr">
+            <summary>Задает оболочка совместимости HookEventArgs.HookEventArgs(Int32 hookCode, IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimHookEventArgs.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.CreateBitmapInt32Int32Int32Int32ByteArray">
+            <summary>Задает оболочка совместимости NativeMethods.CreateBitmap(Int32 nWidth, Int32 nHeight, Int32 nPlanes, Int32 nBitsPerPixel, Byte[] lpvBits)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.CreateBitmapInt32Int32Int32Int32Int16Array">
+            <summary>Задает оболочка совместимости NativeMethods.CreateBitmap(Int32 nWidth, Int32 nHeight, Int32 nPlanes, Int32 nBitsPerPixel, Int16[] lpvBits)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.CreateBitmapInt32Int32Int32Int32IntPtr">
+            <summary>Задает оболочка совместимости NativeMethods.CreateBitmap(Int32 nWidth, Int32 nHeight, Int32 nPlanes, Int32 nBitsPerPixel, IntPtr lpvBits)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.CreateBrushIndirectNativeMethodsLOGBRUSH">
+            <summary>Задает оболочка совместимости NativeMethods.CreateBrushIndirect(LOGBRUSH lb)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.CreateCompatibleDCHandleRef">
+            <summary>Задает оболочка совместимости NativeMethods.CreateCompatibleDC(HandleRef hDC)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.CreateRoundRectRgnRectangleInt32">
+            <summary>Задает оболочка совместимости NativeMethods.CreateRoundRectRgn(Rectangle bounds, Int32 radius)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.DeleteDCHandleRef">
+            <summary>Задает оболочка совместимости NativeMethods.DeleteDC(HandleRef hDC)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.DeleteObjectHandleRef">
+            <summary>Задает оболочка совместимости NativeMethods.DeleteObject(HandleRef hObject)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GID_ROTATE_ANGLE_FROM_ARGUMENTUInt64">
+            <summary>Задает оболочка совместимости NativeMethods.GID_ROTATE_ANGLE_FROM_ARGUMENT(UInt64 arg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetClassLongPtrHandleRefInt32">
+            <summary>Задает оболочка совместимости NativeMethods.GetClassLongPtr(HandleRef hWnd, Int32 nIndex)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetDCExHandleRefHandleRefInt32">
+            <summary>Задает оболочка совместимости NativeMethods.GetDCEx(HandleRef hWnd, HandleRef hrgnClip, Int32 flags)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetDCHandleRef">
+            <summary>Задает оболочка совместимости NativeMethods.GetDC(HandleRef hWnd)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetObjectHandleRefNativeMethodsLOGBRUSH">
+            <summary>Задает оболочка совместимости NativeMethods.GetObject(HandleRef hObject, LOGBRUSH lb)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetObjectHandleRefNativeMethodsLOGFONT">
+            <summary>Задает оболочка совместимости NativeMethods.GetObject(HandleRef hObject, LOGFONT lp)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetObjectHandleRefNativeMethodsLOGPEN">
+            <summary>Задает оболочка совместимости NativeMethods.GetObject(HandleRef hObject, LOGPEN lp)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetSystemDpi">
+            <summary>Задает оболочка совместимости NativeMethods.GetSystemDpi()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetTextMetricsIntPtrIntPtr">
+            <summary>Задает оболочка совместимости NativeMethods.GetTextMetrics(IntPtr hdc, IntPtr hFont)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetWindowDCHandleRef">
+            <summary>Задает оболочка совместимости NativeMethods.GetWindowDC(HandleRef hWnd)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.GetWindowLongHandleRefInt32">
+            <summary>Задает оболочка совместимости NativeMethods.GetWindowLong(HandleRef hWnd, Int32 nIndex)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.HiDWordInt64">
+            <summary>Задает оболочка совместимости NativeMethods.HiDWord(Int64 number)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.HiDWordUInt64">
+            <summary>Задает оболочка совместимости NativeMethods.HiDWord(UInt64 number)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.HiWordInt32">
+            <summary>Задает оболочка совместимости NativeMethods.HiWord(Int32 number)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.HiWordUInt32">
+            <summary>Задает оболочка совместимости NativeMethods.HiWord(UInt32 number)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.InvertRectGraphicsRectangle">
+            <summary>Задает оболочка совместимости NativeMethods.InvertRect(Graphics graphics, Rectangle rectangle)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.IsDifferentFont">
+            <summary>Задает оболочка совместимости NativeMethods.IsDifferentFont()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.LoDWordInt64">
+            <summary>Задает оболочка совместимости NativeMethods.LoDWord(Int64 number)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.LoDWordUInt64">
+            <summary>Задает оболочка совместимости NativeMethods.LoDWord(UInt64 number)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.LoWordInt32">
+            <summary>Задает оболочка совместимости NativeMethods.LoWord(Int32 number)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.LoWordUInt32">
+            <summary>Задает оболочка совместимости NativeMethods.LoWord(UInt32 number)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ReleaseDCHandleRefHandleRef">
+            <summary>Задает оболочка совместимости NativeMethods.ReleaseDC(HandleRef hWnd, HandleRef hDC)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.SetClassLongHandleRefInt32IntPtr">
+            <summary>Задает оболочка совместимости NativeMethods.SetClassLong(HandleRef hWnd, Int32 nIndex, IntPtr dwNewLong)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.SetWindowLongHandleRefInt32HandleRef">
+            <summary>Задает оболочка совместимости NativeMethods.SetWindowLong(HandleRef hWnd, Int32 nIndex, HandleRef dwNewLong)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.StaticConstructor">
+            <summary>Задает оболочка совместимости NativeMethods.NativeMethods()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.UpdateZOrderHandleRefHandleRefBoolean">
+            <summary>Задает оболочка совместимости NativeMethods.UpdateZOrder(HandleRef handle, HandleRef pos, Boolean activate)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.WM_MOUSEENTERGet">
+            <summary>Задает оболочка совместимости NativeMethods.get_WM_MOUSEENTER()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.WindowFromPointInt32Int32">
+            <summary>Задает оболочка совместимости NativeMethods.WindowFromPoint(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAP">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+BITMAP</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAP.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAP.#ctor(Telerik.WinControls.NativeMethods.BITMAP)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAP.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAP.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAP.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAP.Constructor">
+            <summary>Задает оболочка совместимости BITMAP.BITMAP()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAP.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAPINFO">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+BITMAPINFO</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAPINFO.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAPINFO.#ctor(Telerik.WinControls.NativeMethods.BITMAPINFO)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAPINFO.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAPINFO.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAPINFO.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAPINFO.Constructor">
+            <summary>Задает оболочка совместимости BITMAPINFO.BITMAPINFO()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBITMAPINFO.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBLENDFUNCTION">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+BLENDFUNCTION</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBLENDFUNCTION.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBLENDFUNCTION.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBLENDFUNCTION.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBLENDFUNCTION.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimBLENDFUNCTION.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimCommonHandles">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+CommonHandles</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimCommonHandles.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimCommonHandles.#ctor(Telerik.WinControls.NativeMethods.CommonHandles)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimCommonHandles.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimCommonHandles.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimCommonHandles.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimCommonHandles.Constructor">
+            <summary>Задает оболочка совместимости CommonHandles.CommonHandles()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimCommonHandles.StaticConstructor">
+            <summary>Задает оболочка совместимости CommonHandles.CommonHandles()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimCommonHandles.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimDWM_BLURBEHIND">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+DWM_BLURBEHIND</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimDWM_BLURBEHIND.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimDWM_BLURBEHIND.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimDWM_BLURBEHIND.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimDWM_BLURBEHIND.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimDWM_BLURBEHIND.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimEnumLogFont">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+EnumLogFont</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimEnumLogFont.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimEnumLogFont.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimEnumLogFont.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimEnumLogFont.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimEnumLogFont.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGESTURECONFIG">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+GESTURECONFIG</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGESTURECONFIG.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGESTURECONFIG.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGESTURECONFIG.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGESTURECONFIG.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGESTURECONFIG.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGlyphSet">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+GlyphSet</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGlyphSet.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGlyphSet.#ctor(Telerik.WinControls.NativeMethods.GlyphSet)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGlyphSet.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGlyphSet.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGlyphSet.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGlyphSet.Constructor">
+            <summary>Задает оболочка совместимости GlyphSet.GlyphSet()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimGlyphSet.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimINITCOMMONCONTROLSEX">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+INITCOMMONCONTROLSEX</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimINITCOMMONCONTROLSEX.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimINITCOMMONCONTROLSEX.#ctor(Telerik.WinControls.NativeMethods.INITCOMMONCONTROLSEX)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimINITCOMMONCONTROLSEX.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimINITCOMMONCONTROLSEX.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimINITCOMMONCONTROLSEX.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimINITCOMMONCONTROLSEX.Constructor">
+            <summary>Задает оболочка совместимости INITCOMMONCONTROLSEX.INITCOMMONCONTROLSEX()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimINITCOMMONCONTROLSEX.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimIconInfo">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+IconInfo</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimIconInfo.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimIconInfo.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimIconInfo.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimIconInfo.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimIconInfo.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGBRUSH">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+LOGBRUSH</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGBRUSH.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGBRUSH.#ctor(Telerik.WinControls.NativeMethods.LOGBRUSH)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGBRUSH.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGBRUSH.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGBRUSH.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGBRUSH.Constructor">
+            <summary>Задает оболочка совместимости LOGBRUSH.LOGBRUSH()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGBRUSH.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGFONT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+LOGFONT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGFONT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGFONT.#ctor(Telerik.WinControls.NativeMethods.LOGFONT)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGFONT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGFONT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGFONT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGFONT.Constructor">
+            <summary>Задает оболочка совместимости LOGFONT.LOGFONT()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGFONT.ConstructorNativeMethodsLOGFONT">
+            <summary>Задает оболочка совместимости LOGFONT.LOGFONT(LOGFONT lf)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGFONT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGPEN">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+LOGPEN</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGPEN.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGPEN.#ctor(Telerik.WinControls.NativeMethods.LOGPEN)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGPEN.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGPEN.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGPEN.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGPEN.Constructor">
+            <summary>Задает оболочка совместимости LOGPEN.LOGPEN()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimLOGPEN.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMARGINS">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+MARGINS</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMARGINS.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMARGINS.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMARGINS.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMARGINS.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMARGINS.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMINMAXINFO">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+MINMAXINFO</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMINMAXINFO.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMINMAXINFO.#ctor(Telerik.WinControls.NativeMethods.MINMAXINFO)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMINMAXINFO.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMINMAXINFO.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMINMAXINFO.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMINMAXINFO.Constructor">
+            <summary>Задает оболочка совместимости MINMAXINFO.MINMAXINFO()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimMINMAXINFO.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNCCALCSIZE_PARAMS">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+NCCALCSIZE_PARAMS</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNCCALCSIZE_PARAMS.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNCCALCSIZE_PARAMS.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNCCALCSIZE_PARAMS.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNCCALCSIZE_PARAMS.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNCCALCSIZE_PARAMS.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNewTextMetric">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+NewTextMetric</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNewTextMetric.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNewTextMetric.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNewTextMetric.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNewTextMetric.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimNewTextMetric.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPAINTSTRUCT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+PAINTSTRUCT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPAINTSTRUCT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPAINTSTRUCT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPAINTSTRUCT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPAINTSTRUCT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPAINTSTRUCT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+POINT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINT.#ctor(Telerik.WinControls.NativeMethods.POINT)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINT.Constructor">
+            <summary>Задает оболочка совместимости POINT.POINT()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINT.ConstructorInt32Int32">
+            <summary>Задает оболочка совместимости POINT.POINT(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINTSTRUCT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+POINTSTRUCT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINTSTRUCT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINTSTRUCT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINTSTRUCT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINTSTRUCT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimPOINTSTRUCT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimRECT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+RECT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimRECT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimRECT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimRECT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimRECT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimRECT.FromRectangleRectangle">
+            <summary>Задает оболочка совместимости RECT.FromRectangle(Rectangle rect)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimRECT.FromXYWHInt32Int32Int32Int32">
+            <summary>Задает оболочка совместимости RECT.FromXYWH(Int32 x, Int32 y, Int32 width, Int32 height)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimRECT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSHFILEINFO">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+SHFILEINFO</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSHFILEINFO.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSHFILEINFO.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSHFILEINFO.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSHFILEINFO.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSHFILEINFO.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZE">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+SIZE</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZE.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZE.#ctor(Telerik.WinControls.NativeMethods.SIZE)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZE.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZE.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZE.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZE.Constructor">
+            <summary>Задает оболочка совместимости SIZE.SIZE()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZE.ConstructorInt32Int32">
+            <summary>Задает оболочка совместимости SIZE.SIZE(Int32 cx, Int32 cy)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZE.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZESTRUCT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+SIZESTRUCT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZESTRUCT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZESTRUCT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZESTRUCT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZESTRUCT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimSIZESTRUCT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTEXTMETRIC">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+TEXTMETRIC</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTEXTMETRIC.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTEXTMETRIC.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTEXTMETRIC.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTEXTMETRIC.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTEXTMETRIC.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTOOLINFO_TOOLTIP">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+TOOLINFO_TOOLTIP</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTOOLINFO_TOOLTIP.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTOOLINFO_TOOLTIP.#ctor(Telerik.WinControls.NativeMethods.TOOLINFO_TOOLTIP)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTOOLINFO_TOOLTIP.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTOOLINFO_TOOLTIP.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTOOLINFO_TOOLTIP.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTOOLINFO_TOOLTIP.Constructor">
+            <summary>Задает оболочка совместимости TOOLINFO_TOOLTIP.TOOLINFO_TOOLTIP()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTOOLINFO_TOOLTIP.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTRACKMOUSEEVENT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+TRACKMOUSEEVENT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTRACKMOUSEEVENT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTRACKMOUSEEVENT.#ctor(Telerik.WinControls.NativeMethods.TRACKMOUSEEVENT)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTRACKMOUSEEVENT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTRACKMOUSEEVENT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTRACKMOUSEEVENT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTRACKMOUSEEVENT.Constructor">
+            <summary>Задает оболочка совместимости TRACKMOUSEEVENT.TRACKMOUSEEVENT()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTRACKMOUSEEVENT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTextMetric">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+TextMetric</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTextMetric.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTextMetric.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTextMetric.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTextMetric.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimTextMetric.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+Util</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.GetEmbeddedNullStringLengthAnsiString">
+            <summary>Задает оболочка совместимости Util.GetEmbeddedNullStringLengthAnsi(String s)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.GetPInvokeStringLengthString">
+            <summary>Задает оболочка совместимости Util.GetPInvokeStringLength(String s)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.HIWORDInt32">
+            <summary>Задает оболочка совместимости Util.HIWORD(Int32 n)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.HIWORDIntPtr">
+            <summary>Задает оболочка совместимости Util.HIWORD(IntPtr n)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.HighOrderInt32">
+            <summary>Задает оболочка совместимости Util.HighOrder(Int32 param)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.LOWORDInt32">
+            <summary>Задает оболочка совместимости Util.LOWORD(Int32 n)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.LOWORDIntPtr">
+            <summary>Задает оболочка совместимости Util.LOWORD(IntPtr n)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.LowOrderInt32">
+            <summary>Задает оболочка совместимости Util.LowOrder(Int32 param)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.MAKELONGInt32Int32">
+            <summary>Задает оболочка совместимости Util.MAKELONG(Int32 low, Int32 high)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.MAKELPARAMInt32Int32">
+            <summary>Задает оболочка совместимости Util.MAKELPARAM(Int32 low, Int32 high)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.SignedHIWORDInt32">
+            <summary>Задает оболочка совместимости Util.SignedHIWORD(Int32 n)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.SignedHIWORDIntPtr">
+            <summary>Задает оболочка совместимости Util.SignedHIWORD(IntPtr n)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.SignedLOWORDInt32">
+            <summary>Задает оболочка совместимости Util.SignedLOWORD(Int32 n)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimUtil.SignedLOWORDIntPtr">
+            <summary>Задает оболочка совместимости Util.SignedLOWORD(IntPtr n)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimWINDOWPOS">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.NativeMethods+WINDOWPOS</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimWINDOWPOS.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimWINDOWPOS.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimNativeMethods.ShimWINDOWPOS.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimNativeMethods.ShimWINDOWPOS.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimNativeMethods.ShimWINDOWPOS.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimPOINTS">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.POINTS</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimPOINTS.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimPOINTS.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimPOINTS.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimPOINTS.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimPOINTS.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadBitVector64">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.RadBitVector64</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadBitVector64.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadBitVector64.#ctor(Telerik.WinControls.RadBitVector64)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadBitVector64.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadBitVector64.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.ConstructorInt64">
+            <summary>Задает оболочка совместимости RadBitVector64.RadBitVector64(Int64 data)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.ConstructorRadBitVector64">
+            <summary>Задает оболочка совместимости RadBitVector64.RadBitVector64(RadBitVector64 source)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.EqualityOpRadBitVector64RadBitVector64">
+            <summary>Задает оболочка совместимости RadBitVector64.op_Equality(RadBitVector64 vector1, RadBitVector64 vector2)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.EqualsObject">
+            <summary>Задает оболочка совместимости RadBitVector64.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.GetHashCode">
+            <summary>Задает оболочка совместимости RadBitVector64.GetHashCode()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.InequalityOpRadBitVector64RadBitVector64">
+            <summary>Задает оболочка совместимости RadBitVector64.op_Inequality(RadBitVector64 vector1, RadBitVector64 vector2)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.ItemGetInt64">
+            <summary>Задает оболочка совместимости RadBitVector64.get_Item(Int64 key)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.ItemSetInt64Boolean">
+            <summary>Задает оболочка совместимости RadBitVector64.set_Item(Int64 key, Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.Reset">
+            <summary>Задает оболочка совместимости RadBitVector64.Reset()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadBitVector64.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.AllInstances.EqualsObject">
+            <summary>Задает оболочка совместимости RadBitVector64.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.AllInstances.GetHashCode01">
+            <summary>Задает оболочка совместимости RadBitVector64.GetHashCode()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.AllInstances.ItemGetInt64">
+            <summary>Задает оболочка совместимости RadBitVector64.get_Item(Int64 key)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.AllInstances.ItemSetInt64Boolean">
+            <summary>Задает оболочка совместимости RadBitVector64.set_Item(Int64 key, Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadBitVector64.AllInstances.Reset">
+            <summary>Задает оболочка совместимости RadBitVector64.Reset()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadHdcWrapper">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.RadHdcWrapper</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadHdcWrapper.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadHdcWrapper.#ctor(Telerik.WinControls.RadHdcWrapper)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadHdcWrapper.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadHdcWrapper.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadHdcWrapper.Bind(System.Drawing.IDeviceContext)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadHdcWrapper.Bind(System.IDisposable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.ConstructorGraphicsBoolean">
+            <summary>Задает оболочка совместимости RadHdcWrapper.RadHdcWrapper(Graphics g, Boolean useTransfrom)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.Dispose">
+            <summary>Задает оболочка совместимости RadHdcWrapper.Dispose()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.DisposeBoolean">
+            <summary>Задает оболочка совместимости RadHdcWrapper.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.GetHdc">
+            <summary>Задает оболочка совместимости RadHdcWrapper.GetHdc()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.ReleaseHdc">
+            <summary>Задает оболочка совместимости RadHdcWrapper.ReleaseHdc()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadHdcWrapper.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.AllInstances.Dispose">
+            <summary>Задает оболочка совместимости RadHdcWrapper.Dispose()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.AllInstances.DisposeBoolean">
+            <summary>Задает оболочка совместимости RadHdcWrapper.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.AllInstances.GetHdc">
+            <summary>Задает оболочка совместимости RadHdcWrapper.GetHdc()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadHdcWrapper.AllInstances.ReleaseHdc">
+            <summary>Задает оболочка совместимости RadHdcWrapper.ReleaseHdc()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadKeyboardFilter">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.RadKeyboardFilter</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.#ctor(Telerik.WinControls.RadKeyboardFilter)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.Bind(Telerik.WinControls.IMessageListener)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AddListenerIKeyboardListener">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.AddListener(IKeyboardListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.Constructor">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.RadKeyboardFilter()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.ContainsListenerIKeyboardListener">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.ContainsListener(IKeyboardListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.DesiredHookTelerikWinControlsIMessageListenerget">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.Telerik.WinControls.IMessageListener.get_DesiredHook()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.EnabledGet">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.get_Enabled()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.EnabledSetBoolean">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.set_Enabled(Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.HandleInputForUnmanagedControlsGet">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.get_HandleInputForUnmanagedControls()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.HandleInputForUnmanagedControlsSetBoolean">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.set_HandleInputForUnmanagedControls(Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.InstanceGet">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.get_Instance()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.ListenersCountGet">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.get_ListenersCount()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.NotifyKeyboardEventControlMessage">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.NotifyKeyboardEvent(Control target, Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.NotifyListenerIKeyboardListenerControlMessage">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.NotifyListener(IKeyboardListener listener, Control target, Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.RemoveListenerIKeyboardListener">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.RemoveListener(IKeyboardListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.TelerikWinControlsIMessageListenerPreviewMessageMessageRef">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.Telerik.WinControls.IMessageListener.PreviewMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.TelerikWinControlsIMessageListenerPreviewSystemMessageSystemMessageMessage">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.Telerik.WinControls.IMessageListener.PreviewSystemMessage(SystemMessage message, Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.TelerikWinControlsIMessageListenerPreviewWndProcMessage">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.Telerik.WinControls.IMessageListener.PreviewWndProc(Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.UpdateHook">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.UpdateHook()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.AddListenerIKeyboardListener">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.AddListener(IKeyboardListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.ContainsListenerIKeyboardListener">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.ContainsListener(IKeyboardListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.DesiredHookTelerikWinControlsIMessageListenerget">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.Telerik.WinControls.IMessageListener.get_DesiredHook()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.EnabledGet">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.get_Enabled()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.EnabledSetBoolean">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.set_Enabled(Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.HandleInputForUnmanagedControlsGet">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.get_HandleInputForUnmanagedControls()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.HandleInputForUnmanagedControlsSetBoolean">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.set_HandleInputForUnmanagedControls(Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.ListenersCountGet">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.get_ListenersCount()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.NotifyKeyboardEventControlMessage">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.NotifyKeyboardEvent(Control target, Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.NotifyListenerIKeyboardListenerControlMessage">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.NotifyListener(IKeyboardListener listener, Control target, Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.RemoveListenerIKeyboardListener">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.RemoveListener(IKeyboardListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.TelerikWinControlsIMessageListenerPreviewMessageMessageRef">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.Telerik.WinControls.IMessageListener.PreviewMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.TelerikWinControlsIMessageListenerPreviewSystemMessageSystemMessageMessage">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.Telerik.WinControls.IMessageListener.PreviewSystemMessage(SystemMessage message, Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.TelerikWinControlsIMessageListenerPreviewWndProcMessage">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.Telerik.WinControls.IMessageListener.PreviewWndProc(Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadKeyboardFilter.AllInstances.UpdateHook">
+            <summary>Задает оболочка совместимости RadKeyboardFilter.UpdateHook()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadMessageFilter">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.RadMessageFilter</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadMessageFilter.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadMessageFilter.#ctor(Telerik.WinControls.RadMessageFilter)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadMessageFilter.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadMessageFilter.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AddListenerIMessageListener">
+            <summary>Задает оболочка совместимости RadMessageFilter.AddListener(IMessageListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.CallNextHookWhenNoDispatchGet">
+            <summary>Задает оболочка совместимости RadMessageFilter.get_CallNextHookWhenNoDispatch()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.CallNextHookWhenNoDispatchSetBoolean">
+            <summary>Задает оболочка совместимости RadMessageFilter.set_CallNextHookWhenNoDispatch(Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.CallWndProcHookProcInt32IntPtrIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.CallWndProcHookProc(Int32 code, IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.Constructor">
+            <summary>Задает оболочка совместимости RadMessageFilter.RadMessageFilter()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.ContainsListenerIMessageListener">
+            <summary>Задает оболочка совместимости RadMessageFilter.ContainsListener(IMessageListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.EnabledGet">
+            <summary>Задает оболочка совместимости RadMessageFilter.get_Enabled()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.EnabledSetBoolean">
+            <summary>Задает оболочка совместимости RadMessageFilter.set_Enabled(Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.EnsureInstalledHooks">
+            <summary>Задает оболочка совместимости RadMessageFilter.EnsureInstalledHooks()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.GetDesiredHook">
+            <summary>Задает оболочка совместимости RadMessageFilter.GetDesiredHook()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.GetMessageHookProcInt32IntPtrIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.GetMessageHookProc(Int32 code, IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.InstallInstalledHook">
+            <summary>Задает оболочка совместимости RadMessageFilter.Install(InstalledHook toInstall)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.InstalledHookGet">
+            <summary>Задает оболочка совместимости RadMessageFilter.get_InstalledHook()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.InstanceGet">
+            <summary>Задает оболочка совместимости RadMessageFilter.get_Instance()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.NotifyCallWndProcEventIntPtrIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.NotifyCallWndProcEvent(IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.NotifyGetMessageEventMessageRef">
+            <summary>Задает оболочка совместимости RadMessageFilter.NotifyGetMessageEvent(Message&amp; msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.NotifyMessageFilterEventSystemMessageIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.NotifyMessageFilterEvent(SystemMessage message, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.OnEnabledChanged">
+            <summary>Задает оболочка совместимости RadMessageFilter.OnEnabledChanged()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.RemoveAll">
+            <summary>Задает оболочка совместимости RadMessageFilter.RemoveAll()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.RemoveListenerIMessageListener">
+            <summary>Задает оболочка совместимости RadMessageFilter.RemoveListener(IMessageListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.StaticConstructor">
+            <summary>Задает оболочка совместимости RadMessageFilter.RadMessageFilter()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.SystemMessageHookProcInt32IntPtrIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.SystemMessageHookProc(Int32 code, IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.UninstallInstalledHook">
+            <summary>Задает оболочка совместимости RadMessageFilter.Uninstall(InstalledHook toUninstall)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.AddListenerIMessageListener">
+            <summary>Задает оболочка совместимости RadMessageFilter.AddListener(IMessageListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.CallWndProcHookProcInt32IntPtrIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.CallWndProcHookProc(Int32 code, IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.ContainsListenerIMessageListener">
+            <summary>Задает оболочка совместимости RadMessageFilter.ContainsListener(IMessageListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.EnabledGet">
+            <summary>Задает оболочка совместимости RadMessageFilter.get_Enabled()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.EnabledSetBoolean">
+            <summary>Задает оболочка совместимости RadMessageFilter.set_Enabled(Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.EnsureInstalledHooks">
+            <summary>Задает оболочка совместимости RadMessageFilter.EnsureInstalledHooks()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.GetDesiredHook">
+            <summary>Задает оболочка совместимости RadMessageFilter.GetDesiredHook()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.GetMessageHookProcInt32IntPtrIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.GetMessageHookProc(Int32 code, IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.InstallInstalledHook">
+            <summary>Задает оболочка совместимости RadMessageFilter.Install(InstalledHook toInstall)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.InstalledHookGet">
+            <summary>Задает оболочка совместимости RadMessageFilter.get_InstalledHook()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.NotifyCallWndProcEventIntPtrIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.NotifyCallWndProcEvent(IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.NotifyGetMessageEventMessageRef">
+            <summary>Задает оболочка совместимости RadMessageFilter.NotifyGetMessageEvent(Message&amp; msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.NotifyMessageFilterEventSystemMessageIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.NotifyMessageFilterEvent(SystemMessage message, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.OnEnabledChanged">
+            <summary>Задает оболочка совместимости RadMessageFilter.OnEnabledChanged()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.RemoveAll">
+            <summary>Задает оболочка совместимости RadMessageFilter.RemoveAll()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.RemoveListenerIMessageListener">
+            <summary>Задает оболочка совместимости RadMessageFilter.RemoveListener(IMessageListener listener)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.SystemMessageHookProcInt32IntPtrIntPtr">
+            <summary>Задает оболочка совместимости RadMessageFilter.SystemMessageHookProc(Int32 code, IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageFilter.AllInstances.UninstallInstalledHook">
+            <summary>Задает оболочка совместимости RadMessageFilter.Uninstall(InstalledHook toUninstall)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadMessageListener">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.RadMessageListener</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadMessageListener.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadMessageListener.#ctor(Telerik.WinControls.RadMessageListener)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadMessageListener.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadMessageListener.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimRadMessageListener.Bind(Telerik.WinControls.IMessageListener)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.Constructor">
+            <summary>Задает оболочка совместимости RadMessageListener.RadMessageListener()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.DesiredHookGet">
+            <summary>Задает оболочка совместимости RadMessageListener.get_DesiredHook()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.PreviewMessageMessageRef">
+            <summary>Задает оболочка совместимости RadMessageListener.PreviewMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.PreviewSystemMessageSystemMessageMessage">
+            <summary>Задает оболочка совместимости RadMessageListener.PreviewSystemMessage(SystemMessage message, Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.PreviewWndProcMessage">
+            <summary>Задает оболочка совместимости RadMessageListener.PreviewWndProc(Message msg)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimRadMessageListener.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.AllInstances.DesiredHookGet">
+            <summary>Задает оболочка совместимости RadMessageListener.get_DesiredHook()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.AllInstances.PreviewMessageMessageRef">
+            <summary>Задает оболочка совместимости RadMessageListener.PreviewMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.AllInstances.PreviewSystemMessageSystemMessageMessage">
+            <summary>Задает оболочка совместимости RadMessageListener.PreviewSystemMessage(SystemMessage message, Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimRadMessageListener.AllInstances.PreviewWndProcMessage">
+            <summary>Задает оболочка совместимости RadMessageListener.PreviewWndProc(Message msg)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimVBExamplesHelper">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.VBExamplesHelper</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimVBExamplesHelper.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimVBExamplesHelper.#ctor(Telerik.WinControls.VBExamplesHelper)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimVBExamplesHelper.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimVBExamplesHelper.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimVBExamplesHelper.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimVBExamplesHelper.Constructor">
+            <summary>Задает оболочка совместимости VBExamplesHelper.VBExamplesHelper()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimVBExamplesHelper.StaticConstructor">
+            <summary>Задает оболочка совместимости VBExamplesHelper.VBExamplesHelper()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimVBExamplesHelper.StripPathString">
+            <summary>Задает оболочка совместимости VBExamplesHelper.StripPath(String path)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimVBExamplesHelper.VBContextSetBoolean">
+            <summary>Задает оболочка совместимости VBExamplesHelper.set_VBContext(Boolean value)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimVBExamplesHelper.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimVersionNumber">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.VersionNumber</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimVersionNumber.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimVersionNumber.#ctor(Telerik.WinControls.VersionNumber)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimVersionNumber.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimVersionNumber.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimVersionNumber.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimVersionNumber.Constructor">
+            <summary>Задает оболочка совместимости VersionNumber.VersionNumber()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimVersionNumber.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWeakReferenceList`1">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.WeakReferenceList`1</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.#ctor(Telerik.WinControls.WeakReferenceList{`0})">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.Bind(System.Collections.IEnumerable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.Bind(System.Collections.Generic.IEnumerable{`0})">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AddT0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.Add(!0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AutoCleanNonAliveGet">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_AutoCleanNonAlive()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AutoCleanNonAliveSetBoolean">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.set_AutoCleanNonAlive(Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.CleanNonAlive">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.CleanNonAlive()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.Clear">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.Clear()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.Constructor">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.WeakReferenceList`1()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.ConstructorBoolean">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.WeakReferenceList`1(Boolean cleanNonAlive)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.ConstructorBooleanBoolean">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.WeakReferenceList`1(Boolean cleanNonAlive, Boolean trackResurrection)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.CountGet">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_Count()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.GetEnumerator">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.GetEnumerator()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.IndexOfT0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.IndexOf(!0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.InsertCoreInt32T0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.InsertCore(Int32 index, !0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.InsertInt32T0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.Insert(Int32 index, !0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.ItemGetInt32">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.ItemSetInt32T0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.set_Item(Int32 index, !0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.ListGet">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_List()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.RemoveAtInt32">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.RemoveAt(Int32 index)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.RemoveT0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.Remove(!0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.TrackRessurectionGet">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_TrackRessurection()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.TrackRessurectionSetBoolean">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.set_TrackRessurection(Boolean value)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.AddT0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.Add(!0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.AutoCleanNonAliveGet">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_AutoCleanNonAlive()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.AutoCleanNonAliveSetBoolean">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.set_AutoCleanNonAlive(Boolean value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.CleanNonAlive">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.CleanNonAlive()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.Clear">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.Clear()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.CountGet">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_Count()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.GetEnumerator">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.GetEnumerator()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.IndexOfT0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.IndexOf(!0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.InsertCoreInt32T0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.InsertCore(Int32 index, !0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.InsertInt32T0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.Insert(Int32 index, !0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.ItemGetInt32">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.ItemSetInt32T0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.set_Item(Int32 index, !0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.ListGet">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_List()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.RemoveAtInt32">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.RemoveAt(Int32 index)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.RemoveT0">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.Remove(!0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.TrackRessurectionGet">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.get_TrackRessurection()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWeakReferenceList`1.AllInstances.TrackRessurectionSetBoolean">
+            <summary>Задает оболочка совместимости WeakReferenceList`1.set_TrackRessurection(Boolean value)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWindowsHook">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.WindowsHook</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.#ctor(Telerik.WinControls.WindowsHook)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.ConstructorWindowsHookHookType">
+            <summary>Задает оболочка совместимости WindowsHook.WindowsHook(HookType hook)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.CoreHookProcInt32IntPtrIntPtr">
+            <summary>Задает оболочка совместимости WindowsHook.CoreHookProc(Int32 code, IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.HookInvokedAddWindowsHookHookEventHandler">
+            <summary>Задает оболочка совместимости WindowsHook.add_HookInvoked(HookEventHandler value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.HookInvokedRemoveWindowsHookHookEventHandler">
+            <summary>Задает оболочка совместимости WindowsHook.remove_HookInvoked(HookEventHandler value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.Install">
+            <summary>Задает оболочка совместимости WindowsHook.Install()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.IsInstalledGet">
+            <summary>Задает оболочка совместимости WindowsHook.get_IsInstalled()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.OnHookInvokedHookEventArgs">
+            <summary>Задает оболочка совместимости WindowsHook.OnHookInvoked(HookEventArgs e)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.Uninstall">
+            <summary>Задает оболочка совместимости WindowsHook.Uninstall()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWindowsHook.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.AllInstances.CoreHookProcInt32IntPtrIntPtr">
+            <summary>Задает оболочка совместимости WindowsHook.CoreHookProc(Int32 code, IntPtr wParam, IntPtr lParam)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.AllInstances.HookInvokedAddWindowsHookHookEventHandler">
+            <summary>Задает оболочка совместимости WindowsHook.add_HookInvoked(HookEventHandler value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.AllInstances.HookInvokedRemoveWindowsHookHookEventHandler">
+            <summary>Задает оболочка совместимости WindowsHook.remove_HookInvoked(HookEventHandler value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.AllInstances.Install">
+            <summary>Задает оболочка совместимости WindowsHook.Install()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.AllInstances.IsInstalledGet">
+            <summary>Задает оболочка совместимости WindowsHook.get_IsInstalled()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.AllInstances.OnHookInvokedHookEventArgs">
+            <summary>Задает оболочка совместимости WindowsHook.OnHookInvoked(HookEventArgs e)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.AllInstances.Uninstall">
+            <summary>Задает оболочка совместимости WindowsHook.Uninstall()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMSLLHOOKSTRUCT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.WindowsHook+MSLLHOOKSTRUCT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMSLLHOOKSTRUCT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMSLLHOOKSTRUCT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMSLLHOOKSTRUCT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMSLLHOOKSTRUCT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMSLLHOOKSTRUCT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMouseHookStruct">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.WindowsHook+MouseHookStruct</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMouseHookStruct.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMouseHookStruct.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMouseHookStruct.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMouseHookStruct.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWindowsHook.ShimMouseHookStruct.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWindowsHook.ShimPOINT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.WindowsHook+POINT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.ShimPOINT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.ShimPOINT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.ShimWindowsHook.ShimPOINT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.ShimWindowsHook.ShimPOINT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.ShimWindowsHook.ShimPOINT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubDllWrapper">
+            <summary>Тип заглушки Telerik.WinControls.DllWrapper</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubDllWrapper.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubDllWrapper.#ctor(System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubDllWrapper.Dispose">
+            <summary>Задает заглушка DllWrapper.Dispose()</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubDllWrapper.Dispose(System.Boolean)">
+            <summary>Задает заглушка DllWrapper.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubDllWrapper.Dispose01">
+            <summary>Задает stub DllWrapper.Dispose()</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubDllWrapper.DisposeBoolean">
+            <summary>Задает stub DllWrapper.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubDllWrapper.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubDllWrapper</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubDllWrapper.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubDllWrapper.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubDllWrapper.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubHookEventArgs">
+            <summary>Тип заглушки Telerik.WinControls.HookEventArgs</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubHookEventArgs.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubHookEventArgs.#ctor(System.Int32,System.IntPtr,System.IntPtr)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubHookEventArgs.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubHookEventArgs</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubHookEventArgs.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubHookEventArgs.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubHookEventArgs.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubIKeyboardListener">
+            <summary>Тип заглушки Telerik.WinControls.IKeyboardListener</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIKeyboardListener.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIKeyboardListener</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIKeyboardListener.OnPreviewKeyDownControlKeyEventArgs">
+            <summary>Задает stub IKeyboardListener.OnPreviewKeyDown(Control target, KeyEventArgs e)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIKeyboardListener.OnPreviewKeyPressControlKeyPressEventArgs">
+            <summary>Задает stub IKeyboardListener.OnPreviewKeyPress(Control target, KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIKeyboardListener.OnPreviewKeyUpControlKeyEventArgs">
+            <summary>Задает stub IKeyboardListener.OnPreviewKeyUp(Control target, KeyEventArgs e)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIKeyboardListener.tc::Telerik#WinControls#IKeyboardListener#OnPreviewKeyDown(System.Windows.Forms.Control,System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает заглушка IKeyboardListener.OnPreviewKeyDown(Control target, KeyEventArgs e)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIKeyboardListener.tc::Telerik#WinControls#IKeyboardListener#OnPreviewKeyPress(System.Windows.Forms.Control,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Задает заглушка IKeyboardListener.OnPreviewKeyPress(Control target, KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIKeyboardListener.tc::Telerik#WinControls#IKeyboardListener#OnPreviewKeyUp(System.Windows.Forms.Control,System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает заглушка IKeyboardListener.OnPreviewKeyUp(Control target, KeyEventArgs e)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubIMessageListener">
+            <summary>Тип заглушки Telerik.WinControls.IMessageListener</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIMessageListener.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIMessageListener</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIMessageListener.DesiredHookGet">
+            <summary>Задает stub IMessageListener.get_DesiredHook()</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIMessageListener.PreviewMessageMessageRef">
+            <summary>Задает stub IMessageListener.PreviewMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIMessageListener.PreviewSystemMessageSystemMessageMessage">
+            <summary>Задает stub IMessageListener.PreviewSystemMessage(SystemMessage message, Message msg)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIMessageListener.PreviewWndProcMessage">
+            <summary>Задает stub IMessageListener.PreviewWndProc(Message msg)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIMessageListener.tc::Telerik#WinControls#IMessageListener#PreviewMessage(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка IMessageListener.PreviewMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIMessageListener.tc::Telerik#WinControls#IMessageListener#PreviewSystemMessage(Telerik.WinControls.SystemMessage,System.Windows.Forms.Message)">
+            <summary>Задает заглушка IMessageListener.PreviewSystemMessage(SystemMessage message, Message msg)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIMessageListener.tc::Telerik#WinControls#IMessageListener#PreviewWndProc(System.Windows.Forms.Message)">
+            <summary>Задает заглушка IMessageListener.PreviewWndProc(Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubIMessageListener.tc::Telerik#WinControls#IMessageListener#DesiredHook">
+            <summary>Задает stub IMessageListener.get_DesiredHook()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubIOleDropSource">
+            <summary>Тип заглушки Telerik.WinControls.IOleDropSource</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIOleDropSource.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIOleDropSource</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIOleDropSource.OleGiveFeedbackInt32">
+            <summary>Задает stub IOleDropSource.OleGiveFeedback(Int32 dwEffect)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIOleDropSource.OleQueryContinueDragInt32Int32">
+            <summary>Задает stub IOleDropSource.OleQueryContinueDrag(Int32 fEscapePressed, Int32 grfKeyState)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIOleDropSource.tc::Telerik#WinControls#IOleDropSource#OleGiveFeedback(System.Int32)">
+            <summary>Задает заглушка IOleDropSource.OleGiveFeedback(Int32 dwEffect)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIOleDropSource.tc::Telerik#WinControls#IOleDropSource#OleQueryContinueDrag(System.Int32,System.Int32)">
+            <summary>Задает заглушка IOleDropSource.OleQueryContinueDrag(Int32 fEscapePressed, Int32 grfKeyState)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubIOleDropTarget">
+            <summary>Тип заглушки Telerik.WinControls.IOleDropTarget</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIOleDropTarget.#ctor">
+            <summary>Инициализирует новый экземпляр type StubIOleDropTarget</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIOleDropTarget.OleDragEnterObjectInt32Int64Int32Ref">
+            <summary>Задает stub IOleDropTarget.OleDragEnter(Object pDataObj, Int32 grfKeyState, Int64 pt, Int32&amp; pdwEffect)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIOleDropTarget.OleDragLeave">
+            <summary>Задает stub IOleDropTarget.OleDragLeave()</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIOleDropTarget.OleDragOverInt32Int64Int32Ref">
+            <summary>Задает stub IOleDropTarget.OleDragOver(Int32 grfKeyState, Int64 pt, Int32&amp; pdwEffect)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubIOleDropTarget.OleDropObjectInt32Int64Int32Ref">
+            <summary>Задает stub IOleDropTarget.OleDrop(Object pDataObj, Int32 grfKeyState, Int64 pt, Int32&amp; pdwEffect)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIOleDropTarget.tc::Telerik#WinControls#IOleDropTarget#OleDragEnter(System.Object,System.Int32,System.Int64,System.Int32@)">
+            <summary>Задает заглушка IOleDropTarget.OleDragEnter(Object pDataObj, Int32 grfKeyState, Int64 pt, Int32&amp; pdwEffect)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIOleDropTarget.tc::Telerik#WinControls#IOleDropTarget#OleDragLeave">
+            <summary>Задает заглушка IOleDropTarget.OleDragLeave()</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIOleDropTarget.tc::Telerik#WinControls#IOleDropTarget#OleDragOver(System.Int32,System.Int64,System.Int32@)">
+            <summary>Задает заглушка IOleDropTarget.OleDragOver(Int32 grfKeyState, Int64 pt, Int32&amp; pdwEffect)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubIOleDropTarget.tc::Telerik#WinControls#IOleDropTarget#OleDrop(System.Object,System.Int32,System.Int64,System.Int32@)">
+            <summary>Задает заглушка IOleDropTarget.OleDrop(Object pDataObj, Int32 grfKeyState, Int64 pt, Int32&amp; pdwEffect)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubRadBitVector64">
+            <summary>Тип заглушки Telerik.WinControls.RadBitVector64</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadBitVector64.#ctor(System.Int64)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadBitVector64.#ctor(Telerik.WinControls.RadBitVector64)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadBitVector64.Equals(System.Object)">
+            <summary>Задает заглушка RadBitVector64.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubRadBitVector64.EqualsObject">
+            <summary>Задает stub RadBitVector64.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadBitVector64.GetHashCode">
+            <summary>Задает заглушка RadBitVector64.GetHashCode()</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubRadBitVector64.GetHashCode01">
+            <summary>Задает stub RadBitVector64.GetHashCode()</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadBitVector64.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubRadBitVector64</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadBitVector64.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadBitVector64.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadBitVector64.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubRadHdcWrapper">
+            <summary>Тип заглушки Telerik.WinControls.RadHdcWrapper</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadHdcWrapper.#ctor(System.Drawing.Graphics,System.Boolean)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadHdcWrapper.Dispose(System.Boolean)">
+            <summary>Задает заглушка RadHdcWrapper.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubRadHdcWrapper.DisposeBoolean">
+            <summary>Задает stub RadHdcWrapper.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadHdcWrapper.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubRadHdcWrapper</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadHdcWrapper.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadHdcWrapper.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadHdcWrapper.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubRadMessageListener">
+            <summary>Тип заглушки Telerik.WinControls.RadMessageListener</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadMessageListener.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubRadMessageListener.DesiredHookGet">
+            <summary>Задает stub RadMessageListener.get_DesiredHook()</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadMessageListener.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubRadMessageListener</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadMessageListener.PreviewMessage(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка RadMessageListener.PreviewMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubRadMessageListener.PreviewMessageMessageRef">
+            <summary>Задает stub RadMessageListener.PreviewMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadMessageListener.PreviewSystemMessage(Telerik.WinControls.SystemMessage,System.Windows.Forms.Message)">
+            <summary>Задает заглушка RadMessageListener.PreviewSystemMessage(SystemMessage message, Message msg)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubRadMessageListener.PreviewSystemMessageSystemMessageMessage">
+            <summary>Задает stub RadMessageListener.PreviewSystemMessage(SystemMessage message, Message msg)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubRadMessageListener.PreviewWndProc(System.Windows.Forms.Message)">
+            <summary>Задает заглушка RadMessageListener.PreviewWndProc(Message msg)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubRadMessageListener.PreviewWndProcMessage">
+            <summary>Задает stub RadMessageListener.PreviewWndProc(Message msg)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadMessageListener.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadMessageListener.DesiredHook">
+            <summary>Задает stub RadMessageListener.get_DesiredHook()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadMessageListener.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubRadMessageListener.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubVBExamplesHelper">
+            <summary>Тип заглушки Telerik.WinControls.VBExamplesHelper</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubVBExamplesHelper.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubVBExamplesHelper.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubVBExamplesHelper</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubVBExamplesHelper.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubVBExamplesHelper.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubVBExamplesHelper.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubWeakReferenceList`1">
+            <summary>Тип заглушки Telerik.WinControls.WeakReferenceList`1</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubWeakReferenceList`1.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubWeakReferenceList`1.#ctor(System.Boolean)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubWeakReferenceList`1.#ctor(System.Boolean,System.Boolean)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubWeakReferenceList`1.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubWeakReferenceList</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubWeakReferenceList`1.InsertCore(System.Int32,`0)">
+            <summary>Задает заглушка WeakReferenceList`1.InsertCore(Int32 index, !0 value)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubWeakReferenceList`1.InsertCoreInt32T0">
+            <summary>Задает stub WeakReferenceList`1.InsertCore(Int32 index, !0 value)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubWeakReferenceList`1.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubWeakReferenceList`1.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubWeakReferenceList`1.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Telerik.WinControls.Fakes.StubWindowsHook">
+            <summary>Тип заглушки Telerik.WinControls.WindowsHook</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubWindowsHook.#ctor(Telerik.WinControls.WindowsHook.HookType)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubWindowsHook.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubWindowsHook</summary>
+        </member>
+        <member name="M:Telerik.WinControls.Fakes.StubWindowsHook.OnHookInvoked(Telerik.WinControls.HookEventArgs)">
+            <summary>Задает заглушка WindowsHook.OnHookInvoked(HookEventArgs e)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.Fakes.StubWindowsHook.OnHookInvokedHookEventArgs">
+            <summary>Задает stub WindowsHook.OnHookInvoked(HookEventArgs e)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubWindowsHook.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubWindowsHook.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.Fakes.StubWindowsHook.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.UI.IMENativeWrapper</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimCompositionForm">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.UI.IMENativeWrapper+CompositionForm</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimCompositionForm.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimCompositionForm.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimCompositionForm.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimCompositionForm.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimCompositionForm.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimLOGFONT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.UI.IMENativeWrapper+LOGFONT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimLOGFONT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimLOGFONT.#ctor(Telerik.WinControls.UI.IMENativeWrapper.LOGFONT)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimLOGFONT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimLOGFONT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimLOGFONT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimLOGFONT.Constructor">
+            <summary>Задает оболочка совместимости LOGFONT.LOGFONT()</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimLOGFONT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimPOINT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.UI.IMENativeWrapper+POINT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimPOINT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimPOINT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimPOINT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimPOINT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimPOINT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimRECT">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.UI.IMENativeWrapper+RECT</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimRECT.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimRECT.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimRECT.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimRECT.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimIMENativeWrapper.ShimRECT.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter">
+            <summary>Тип оболочки совместимости для Telerik.WinControls.UI.NativeWindowAdapter</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.#ctor(Telerik.WinControls.UI.NativeWindowAdapter)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.Bind(System.IDisposable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AddHookWndHookDelegate">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.AddHook(WndHookDelegate callback)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AddPostWndProcHookWndHookDelegate">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.AddPostWndProcHook(WndHookDelegate callback)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.ConstructorIntPtr">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.NativeWindowAdapter(IntPtr intPtr)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.Dispose">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.Dispose()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.RemoveHookWndHookDelegate">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.RemoveHook(WndHookDelegate callback)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.RemovePostWndProcHookWndHookDelegate">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.RemovePostWndProcHook(WndHookDelegate callback)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.SetControlControl">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.SetControl(Control control)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.WndProcMessageRef">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AllInstances.AddHookWndHookDelegate">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.AddHook(WndHookDelegate callback)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AllInstances.AddPostWndProcHookWndHookDelegate">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.AddPostWndProcHook(WndHookDelegate callback)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AllInstances.Dispose">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.Dispose()</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AllInstances.RemoveHookWndHookDelegate">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.RemoveHook(WndHookDelegate callback)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AllInstances.RemovePostWndProcHookWndHookDelegate">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.RemovePostWndProcHook(WndHookDelegate callback)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AllInstances.SetControlControl">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.SetControl(Control control)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.ShimNativeWindowAdapter.AllInstances.WndProcMessageRef">
+            <summary>Задает оболочка совместимости NativeWindowAdapter.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="T:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter">
+            <summary>Тип заглушки Telerik.WinControls.UI.NativeWindowAdapter</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.#ctor(System.IntPtr)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.CreateHandle(System.Windows.Forms.CreateParams)">
+            <summary>Задает заглушка NativeWindow.CreateHandle(CreateParams cp)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.CreateHandleCreateParams">
+            <summary>Задает stub NativeWindow.CreateHandle(CreateParams cp)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.DestroyHandle">
+            <summary>Задает заглушка NativeWindow.DestroyHandle()</summary>
+        </member>
+        <member name="F:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.DestroyHandle01">
+            <summary>Задает stub NativeWindow.DestroyHandle()</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubNativeWindowAdapter</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.OnHandleChange">
+            <summary>Задает заглушка NativeWindow.OnHandleChange()</summary>
+        </member>
+        <member name="F:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.OnHandleChange01">
+            <summary>Задает stub NativeWindow.OnHandleChange()</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.OnThreadException(System.Exception)">
+            <summary>Задает заглушка NativeWindow.OnThreadException(Exception e)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.OnThreadExceptionException">
+            <summary>Задает stub NativeWindow.OnThreadException(Exception e)</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.ReleaseHandle">
+            <summary>Задает заглушка NativeWindow.ReleaseHandle()</summary>
+        </member>
+        <member name="F:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.ReleaseHandle01">
+            <summary>Задает stub NativeWindow.ReleaseHandle()</summary>
+        </member>
+        <member name="M:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.WndProc(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка NativeWindowAdapter.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.WndProcMessageRef">
+            <summary>Задает stub NativeWindowAdapter.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:Telerik.WinControls.UI.Fakes.StubNativeWindowAdapter.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+    </members>
+</doc>

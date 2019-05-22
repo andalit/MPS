@@ -1,0 +1,8 @@
+D:\MPS\Program\MPS\MPS\obj\Debug\Fakes\tc\b\TelerikCommon.Fakes.xml
+D:\MPS\Program\MPS\MPS\obj\Debug\Fakes\tc\b\TelerikCommon.Fakes.dll
+D:\MPS\Program\MPS\MPS\obj\Debug\Fakes\tc\b\TelerikCommon.Fakes.pdb
+D:\MPS\Program\MPS\MPS\obj\Debug\Fakes\tc\b\Microsoft.QualityTools.Testing.Fakes.dll
+D:\MPS\Program\MPS\MPS\obj\Debug\Fakes\tc\b\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\MPS\Program\MPS\MPS\obj\Debug\Fakes\tc\o\f.csprojResolveAssemblyReference.cache
+D:\MPS\Program\MPS\MPS\obj\Debug\Fakes\tc\o\TelerikCommon.Fakes.dll
+D:\MPS\Program\MPS\MPS\obj\Debug\Fakes\tc\o\TelerikCommon.Fakes.pdb

@@ -1,0 +1,58 @@
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.WindowsFormsUtils: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.UI.IMENativeWrapper: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.UI.WndHookDelegate: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.ClientUtils: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.POINTS: тип является типом значения.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.GESTUREINFO: тип является типом значения.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.GestureInfoHelper: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.DWMAPI: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.UXTheme: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.MessagePreviewResult: тип является типом значения.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.InstalledHook: тип является типом значения.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.SystemMessage: тип является типом значения.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.RadMessageFilter: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.NativeMethods: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.TimeZoneNativeMethods: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.TimeZoneUnsafeNativeMethods: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.SafeLibraryHandle: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.VersionNumber: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.HandleChangeEventHandler: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.HandleCollector: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.RadKeyboardFilter: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.RegionCombineMode: тип является типом значения.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать заглушку для Telerik.WinControls.SR: тип является запечатанным.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.WindowsFormsUtils: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.UI.IMENativeWrapper+ITfThreadMgr: тип является интерфейсом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.UI.WndHookDelegate: тип является делегатом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.DWMAPI: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.RadHdcWrapper+XFORM: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.UXTheme: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.IKeyboardListener: тип является интерфейсом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.IMessageListener: тип является интерфейсом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.MessagePreviewResult: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.InstalledHook: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.SystemMessage: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.RadMessageFilter+CWPSTRUCT: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.RadMessageFilter+HookProc: тип является делегатом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.RadMessageFilter+HookType: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.RadMessageFilter+MouseHookStruct: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.WeakReferenceList`1+<GetEnumerator>d__0: тип не поддерживается из-за внутренних ограничений.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.WeakReferenceList`1+<System.Collections.IEnumerable.GetEnumerator>d__4: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.WindowsHook+HookEventHandler: тип является делегатом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.WindowsHook+HookProc: тип является делегатом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.WindowsHook+HookType: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.NativeMethods+AnimateWindowFlags: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.NativeMethods+DeviceCapsNativeMethods: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.NativeMethods+FontEnumDelegate: тип является делегатом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.NativeMethods+GdiDcObject: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.NativeMethods+GetWindow_Cmd: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.NativeMethods+ScrollBarDirection: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.TimeZoneNativeMethods: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.TimeZoneUnsafeNativeMethods: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.SafeLibraryHandle: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.HandleChangeEventHandler: тип является делегатом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.HandleCollector+HandleType: тип невидим для exported or assembly(TelerikCommon.Fakes).
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.IOleDropSource: тип является интерфейсом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.IOleDropTarget: тип является интерфейсом.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.RegionCombineMode: тип является перечислением.
+D:\MPS\Program\MPS\MPS\Fakes\TelerikCommon.fakes : warning : Невозможно создать оболочку совместимости для Telerik.WinControls.SR: тип невидим для exported or assembly(TelerikCommon.Fakes).
